@@ -1,0 +1,82 @@
+/* CSS cơ bản dùng class */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8fdf8;
+  margin: 0;
+  padding: 0;
+}
+
+/* Tiêu đề chính */
+.title {
+  color: darkgreen;
+  background-color: lightyellow;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+/* Phần giới thiệu */
+.intro {
+  color: #333;
+  font-size: 16px;
+  background-color: #eef9ee;
+  padding: 15px;
+  margin: 15px;
+  line-height: 1.5;
+}
+
+/* Tiêu đề nhỏ */
+.subtitle {
+  color: #b34a00;
+  font-size: 20px;
+  text-align: center;
+  background-color: #fff7e6;
+  padding: 8px;
+  margin-top: 30px;
+}
+
+/* Hình ảnh */
+.photo {
+  display: block;
+  width: 80%;
+  margin: 15px auto;
+  border-radius: 10px;
+}
+
+/* Đoạn nội dung */
+.content {
+  color: #444;
+  font-size: 15px;
+  background-color: #f5f5f5;
+  padding: 10px 20px;
+  margin: 10px 30px;
+  line-height: 1.5;
+}
+
+/* Link */
+.link {
+  display: block;
+  text-align: center;
+  margin: 10px auto 30px;
+  color: blue;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.link:hover {
+  color: darkblue;
+  text-decoration: underline;
+}
+
+/* Ghi chú cuối */
+.note {
+  background-color: #e8f5e9;
+  padding: 15px;
+  margin: 20px;
+  color: #2e7d32;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 8px;
+}
+
