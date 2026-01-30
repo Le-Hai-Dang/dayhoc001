@@ -2,162 +2,32 @@
 <html lang="vi">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gallery Ảnh - CSS Effects Demo</title>
-  <meta name="description" content="Trang web xem ảnh với các hiệu ứng CSS hover, translate, rotate - không JavaScript">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Tính Chu Vi và Diện Tích</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <!-- Header -->
-  <header class="header">
-    <h1 class="title">🎨 CSS Image Gallery</h1>
-    <p class="subtitle">Hover các ảnh để xem hiệu ứng - Không JavaScript!</p>
-  </header>
+    <h1 class="tieu-de">Tính Chu Vi và Diện Tích</h1>
 
-  <!-- Main Gallery -->
-  <main class="gallery-container">
+    <div class="menu">
+        <p class="menu-item"><strong>Chọn phép tính (nhập số 1-4):</strong></p>
+        <p class="menu-item">1. Chu vi hình chữ nhật</p>
+        <p class="menu-item">2. Diện tích hình chữ nhật</p>
+        <p class="menu-item">3. Chu vi hình vuông</p>
+        <p class="menu-item">4. Diện tích hình vuông</p>
+    </div>
 
-    <!-- Section 1: Hiệu ứng Hover Scale -->
-    <section class="section">
-      <h2 class="section-title">✨ Hiệu ứng Scale (Phóng to)</h2>
-      <div class="gallery">
-        <div class="card card-scale">
-          <img src="https://picsum.photos/300/200?random=1" alt="Ảnh 1">
-          <div class="card-overlay">
-            <span>Scale Effect</span>
-          </div>
-        </div>
-        <div class="card card-scale">
-          <img src="https://picsum.photos/300/200?random=2" alt="Ảnh 2">
-          <div class="card-overlay">
-            <span>Phóng to 1.1x</span>
-          </div>
-        </div>
-        <div class="card card-scale">
-          <img src="https://picsum.photos/300/200?random=3" alt="Ảnh 3">
-          <div class="card-overlay">
-            <span>transform: scale()</span>
-          </div>
-        </div>
-      </div>
-    </section>
+    <form class="form-tinh">
+        <input type="number" class="input-box lua-chon" placeholder="Nhập lựa chọn (1-4)">
+        <input type="number" class="input-box so-a" placeholder="Nhập chiều dài (hoặc cạnh)">
+        <input type="number" class="input-box so-b" placeholder="Nhập chiều rộng (nếu là hình chữ nhật)">
+        <button type="button" class="nut-tinh" onclick="tinhToan()">Tính</button>
+    </form>
 
-    <!-- Section 2: Hiệu ứng Translate -->
-    <section class="section">
-      <h2 class="section-title">🚀 Hiệu ứng Translate (Di chuyển)</h2>
-      <div class="gallery">
-        <div class="card card-translate-up">
-          <img src="https://picsum.photos/300/200?random=4" alt="Ảnh 4">
-          <div class="card-overlay">
-            <span>Di chuyển lên ⬆️</span>
-          </div>
-        </div>
-        <div class="card card-translate-down">
-          <img src="https://picsum.photos/300/200?random=5" alt="Ảnh 5">
-          <div class="card-overlay">
-            <span>Di chuyển xuống ⬇️</span>
-          </div>
-        </div>
-        <div class="card card-translate-x">
-          <img src="https://picsum.photos/300/200?random=6" alt="Ảnh 6">
-          <div class="card-overlay">
-            <span>Di chuyển ngang ↔️</span>
-          </div>
-        </div>
-      </div>
-    </section>
+    <div class="ket-qua"></div>
 
-    <!-- Section 3: Hiệu ứng Rotate -->
-    <section class="section">
-      <h2 class="section-title">🔄 Hiệu ứng Rotate (Xoay)</h2>
-      <div class="gallery">
-        <div class="card card-rotate-small">
-          <img src="https://picsum.photos/300/200?random=7" alt="Ảnh 7">
-          <div class="card-overlay">
-            <span>Xoay 5°</span>
-          </div>
-        </div>
-        <div class="card card-rotate-medium">
-          <img src="https://picsum.photos/300/200?random=8" alt="Ảnh 8">
-          <div class="card-overlay">
-            <span>Xoay 10°</span>
-          </div>
-        </div>
-        <div class="card card-rotate-full">
-          <img src="https://picsum.photos/300/200?random=9" alt="Ảnh 9">
-          <div class="card-overlay">
-            <span>Xoay 360° </span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Section 4: Kết hợp các hiệu ứng -->
-    <section class="section">
-      <h2 class="section-title">🎯 Kết hợp hiệu ứng</h2>
-      <div class="gallery">
-        <div class="card card-combo-1">
-          <img src="https://picsum.photos/300/200?random=10" alt="Ảnh 10">
-          <div class="card-overlay">
-            <span>Scale + Rotate</span>
-          </div>
-        </div>
-        <div class="card card-combo-2">
-          <img src="https://picsum.photos/300/200?random=11" alt="Ảnh 11">
-          <div class="card-overlay">
-            <span>Translate + Scale</span>
-          </div>
-        </div>
-        <div class="card card-combo-3">
-          <img src="https://picsum.photos/300/200?random=12" alt="Ảnh 12">
-          <div class="card-overlay">
-            <span>All Effects!</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Section 5: Hiệu ứng nâng cao -->
-    <section class="section">
-      <h2 class="section-title">💎 Hiệu ứng nâng cao</h2>
-      <div class="gallery">
-        <div class="card card-flip">
-          <div class="card-inner">
-            <div class="card-front">
-              <img src="https://picsum.photos/300/200?random=13" alt="Ảnh 13">
-            </div>
-            <div class="card-back">
-              <span>🔄 Flip Effect!</span>
-            </div>
-          </div>
-        </div>
-        <div class="card card-tilt">
-          <img src="https://picsum.photos/300/200?random=14" alt="Ảnh 14">
-          <div class="card-overlay">
-            <span>3D Tilt Effect</span>
-          </div>
-        </div>
-        <div class="card card-glow">
-          <img src="https://picsum.photos/300/200?random=15" alt="Ảnh 15">
-          <div class="card-overlay">
-            <span>Glow Effect ✨</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-  </main>
-
-  <!-- Footer -->
-  <footer class="footer">
-    <p>🎓 Bài học CSS: Hover, Transform, Transition</p>
-    <p>Các thuộc tính: <code>transform</code>, <code>translate</code>, <code>rotate</code>, <code>scale</code></p>
-  </footer>
-
+    <script src="script.js"></script>
 </body>
 
 </html>
-</CodeContent>
-<parameter name="EmptyFile">false
