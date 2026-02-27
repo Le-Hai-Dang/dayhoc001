@@ -1,0 +1,115 @@
+/* === TRANG PROFILE QUÂN === */
+/* Chỉ dùng các thuộc tính CSS đã học */
+
+.tieu-de {
+    color: #fff;
+    text-align: center;
+    background-color: #4CAF50;
+    padding: 20px;
+    margin: 0;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-size: 28px;
+}
+
+.khung-anh {
+    text-align: center;
+    background-color: #e8f5e9;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.anh-profile {
+    width: 150px;
+    border-radius: 50%;
+    border: none;
+}
+
+.ten-duoi-anh {
+    font-size: 20px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.tieu-de-phan {
+    font-size: 20px;
+    color: #333;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.thong-tin {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.dong-info {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.so-thich {
+    background-color: #fff3e0;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.so-thich-item {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.muc-tieu {
+    background-color: #e3f2fd;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.muc-tieu-item {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.loi-nhan {
+    background-color: #fce4ec;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.loi-nhan-text {
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+    text-align: center;
+}
+
+.chan-trang {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.chan-trang-text {
+    color: #fff;
+    font-size: 16px;
+    margin: 0;
+}
