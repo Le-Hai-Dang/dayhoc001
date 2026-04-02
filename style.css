@@ -1,8 +1,13 @@
-.header{
+.header {
     color: rgb(21, 74, 231);
     background-color: rgb(179, 239, 239);
 
 }
-.chao{
-    color:rgb(78, 155, 239)
+
+.chao {
+    color: rgb(78, 155, 239)
+}
+
+.vd {
+    border-radius: 20px;
 }
