@@ -1,46 +1,8 @@
-.tieu-de {
-  color: #333;
-  text-align: center;
-}
+.header{
+    color: rgb(21, 74, 231);
+    background-color: rgb(179, 239, 239);
 
-.menu {
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 10px;
-  margin-bottom: 20px;
 }
-
-.menu-item {
-  margin: 10px 0;
-}
-
-.input-box {
-  padding: 10px;
-  font-size: 16px;
-  width: 100%;
-  margin: 10px 0;
-  box-sizing: border-box;
-}
-
-.nut-tinh {
-  padding: 10px 20px;
-  font-size: 16px;
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  margin: 5px 0;
-}
-
-.nut-tinh:hover {
-  background-color: #45a049;
-}
-
-.ket-qua {
-  background-color: #fffacd;
-  padding: 20px;
-  border-radius: 10px;
-  margin-top: 20px;
-  font-size: 18px;
+.chao{
+    color:rgb(78, 155, 239)
 }
