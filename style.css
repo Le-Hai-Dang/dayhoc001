@@ -1,13 +1,79 @@
-.header {
-    color: rgb(21, 74, 231);
-    background-color: rgb(179, 239, 239);
-
+.tieu-de-chinh {
+    color: red;
 }
 
-.chao {
-    color: rgb(78, 155, 239)
+.mo-ta {
+    color: grey;
 }
 
-.vd {
+.tieu-de-phu {
+    color: blue;
+}
+
+.noi-dung {
+    color: black;
+}
+
+.lien-ket {
+    color: green;
+}
+
+.anh-cho {
+    border-radius: 15px;
+}
+
+.anh-meo {
+    border-radius: 50%;
+}
+
+.anh-tho {
     border-radius: 20px;
+}
+
+.anh-rua {
+    border-radius: 10px;
+}
+
+.anh-ngua {
+    border-radius: 5px;
+}
+
+.anh-chim-canh-cut {
+    border-radius: 25px;
+}
+
+.anh-su-tu {
+    border-radius: 40px;
+}
+
+.anh-ca-voi {
+    border-radius: 8px;
+}
+
+.anh-khi {
+    border-radius: 30%;
+}
+
+.anh-voi {
+    border-radius: 12px;
+}
+
+.anh-huou {
+    border-radius: 18px;
+}
+
+.anh-gau-truc {
+    border-radius: 22px;
+}
+
+.anh-ca-heo {
+    border-radius: 100%;
+}
+
+.anh-cao {
+    border-radius: 16px;
+}
+
+.anh-ech {
+    border-radius: 4px;
 }
