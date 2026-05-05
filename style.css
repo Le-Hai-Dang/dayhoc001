@@ -18,62 +18,13 @@
     color: green;
 }
 
-.anh-cho {
-    border-radius: 15px;
+.text {
+    background-color: bisque;
+    text-align: center;
+    font-size: 40px;
 }
 
-.anh-meo {
-    border-radius: 50%;
-}
-
-.anh-tho {
-    border-radius: 20px;
-}
-
-.anh-rua {
-    border-radius: 10px;
-}
-
-.anh-ngua {
-    border-radius: 5px;
-}
-
-.anh-chim-canh-cut {
-    border-radius: 25px;
-}
-
-.anh-su-tu {
-    border-radius: 40px;
-}
-
-.anh-ca-voi {
-    border-radius: 8px;
-}
-
-.anh-khi {
-    border-radius: 30%;
-}
-
-.anh-voi {
-    border-radius: 12px;
-}
-
-.anh-huou {
-    border-radius: 18px;
-}
-
-.anh-gau-truc {
-    border-radius: 22px;
-}
-
-.anh-ca-heo {
-    border-radius: 100%;
-}
-
-.anh-cao {
-    border-radius: 16px;
-}
-
-.anh-ech {
-    border-radius: 4px;
+.image {
+    width: 800px;
+    height: 590px;
 }
